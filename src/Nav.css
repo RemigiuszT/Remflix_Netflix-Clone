@@ -172,3 +172,16 @@
 .MyList:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 1023px) {
+  .Home,
+  .TVshows,
+  .Movies,
+  .Latest,
+  .MyList,
+  .Gift,
+  .Bell,
+  .SearchIcon {
+    display: none;
+  }
+}
